@@ -143,9 +143,22 @@ h2 {
 /* botao de menu acessibilidade*/
 .menu-acessibilidade{
 position:fixed;
-top:2rem;
-right:20px;
+top: 2rem;
+right: 20px;
 z-index: 1000;
 
+.rotaçcao-botao{
+    transform: rotate-(-90deg);
+    transform-origen:right center;
 
+}
+.opcoes-acessibilidade{
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+
+}
+.opcoes-acessibilidadebutton{
+    margin-bottom: 5px;
+}
 }
