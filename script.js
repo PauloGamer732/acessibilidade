@@ -21,6 +21,7 @@ const opcoesDeacessibilidade = document.getElementById('opcoes-acessibilidade');
 
 botaoAcessibilidade.addEventListener('click',function()){
     botaoAcessibilidade.classList.toggle('rotacao-botao');
+    opcoesDeacessibilidade.classList.toggle('apresenta-lista');
 }
 
 })
