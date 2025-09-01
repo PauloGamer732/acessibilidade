@@ -177,10 +177,22 @@ alto-contraste{
 }
 
 .alto-contraste header,alto-contraste footer, .alto-contraste .formulario{
-    backgroud-color: var(--alto-contraste-fudno)
+    background-color: var(--alto-contraste-fudno)
     color:var(--alto-contraste-texto);
 }
 
 .alto-contraste .nav-link{
     color:var(--alto-contraste-link);
+}
+
+.alto-contraste #tropicalia{
+    backgroud:none;
+}
+
+alto-contraste #galeria{
+    background-color:var(--alto-contraste-fundo);
+}
+
+alto-contraste .fundo-galeria{
+    background:none;
 }
