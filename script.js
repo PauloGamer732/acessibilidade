@@ -18,10 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 const botaoAcessibilidade = document.getElementById('botao-acessibilidade');
 const opcoesDeacessibilidade = document.getElementById('opcoes-acessibilidade');
+const alternaContraste = document.getElementById('alterna-contraste');
 
 botaoAcessibilidade.addEventListener('click',function()){
     botaoAcessibilidade.classList.toggle('rotacao-botao');
     opcoesDeacessibilidade.classList.toggle('apresenta-lista');
 }
-
+alternaContraste.addEventListener('click', function(){
+    document.body.classList.toggle('alto-contraste')
+}
 })
+
