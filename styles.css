@@ -180,3 +180,7 @@ alto-contraste{
     backgroud-color: var(--alto-contraste-fudno)
     color:var(--alto-contraste-texto);
 }
+
+.alto-contraste .nav-link{
+    color:var(--alto-contraste-link);
+}
